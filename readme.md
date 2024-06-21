@@ -3,9 +3,9 @@
 
 [![Rust CI](https://github.com/Amarlanda/query_contract_by_block/actions/workflows/rust.yml/badge.svg)](https://github.com/Amarlanda/query_contract_by_block/actions/workflows/rust.yml)
 
-This repository contains the code to query a contract by block without the contract's ABI.
+This repository contains the code to query a contract by block and known function header without the contract's ABI.
 
-The purpose of this repository is to ensure that API keys are not exposed, while still demonstrating their usage in the workflow for running the code locally.
+The purpose of this repository is to keep API keys secure while showcasing their usage in the workflow, eliminating the need for you to run the code locally.
 
 ## Setup
 
