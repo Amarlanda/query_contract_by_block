@@ -8,7 +8,7 @@ use std::{convert::TryFrom, sync::Arc};
 use tokio::main;
 
 mod env_loader;
-use env_loader::{load_env, Env};
+use env_loader:: Env;
 
 async fn connect_to_network(env: &Env) -> Result<Arc<Provider<Http>>, Box<dyn std::error::Error>> {
   let infura_url = format!("https://{}.infura.io/v3/{}", env.network, env.infura_project_id);
@@ -81,7 +81,7 @@ fn decode_result(result: &Bytes) -> Result<U256, Box<dyn std::error::Error>> {
 #[main]
 async fn main() -> Result<(), Box<dyn std::error::Error>> {
   // Loading environment variables...
-  let env = load_env();
+  let env = Env::load_env();
 
   // Connecting to the network...
   let client = connect_to_network(&env).await?;
