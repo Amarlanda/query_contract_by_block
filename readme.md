@@ -32,4 +32,5 @@ cargo run --release
 If you would like to view the code output without running it, please click the link below.
 
 ## Output
-To access the GitHub workflow output, log in to GitHub and click on this [link](https://github.com/Amarlanda/query_contract_by_block/actions/runs/9610064702/job/26505753601#step:7:273).
+
+To access the GitHub workflow output, log in to GitHub and click on this [link](https://github.com/Amarlanda/query_contract_by_block/actions/runs/9610611684/job/26507524634#step:7:287)
